@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Онлайн диагностика + косметология</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Онлайн диагностика + косметология</h1>
+    <nav>
+      <a href="#upload">Услуги</a>
+      <a href="#how-it-works">Как это работает</a>
+      <a href="#blog">Блог</a>
+      <a href="#about">О нас</a>
+      <a href="#contact">Контакты</a>
+      <button id="btn-login">Войти / Регистрация</button>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Онлайн расшифровка рентген/КТ/МРТ и консультации по коже</h2>
+    <p>Загрузите снимок или видео и получите экспертное заключение.</p>
+    <button id="cta-upload">Загрузить снимок</button>
+    <button id="cta-skin">Консультация по коже</button>
+  </section>
+
+  <section id="how-it-works">
+    <h3>Как это работает</h3>
+    <div class="step">1. Загрузить исследование</div>
+    <div class="step">2. Назначение специалисту</div>
+    <div class="step">3. Получить заключение</div>
+  </section>
+
+  <section id="advantages">
+    <h3>Преимущества</h3>
+    <ul>
+      <li>Быстро</li>
+      <li>Конфиденциально</li>
+      <li>Профессиональные врачи</li>
+      <li>Примеры заключений</li>
+    </ul>
+  </section>
+
+  <section id="reviews">
+    <h3>Отзывы</h3>
+    <p>«Спасибо, получили подробное заключение быстро» — Пациент</p>
+    <!-- Можешь добавить фото, текст отзывы и т.д. -->
+  </section>
+
+  <footer>
+    <p>© 2025 Онлайн диагностика + косметология</p>
+    <p>Контакты | Политика конфиденциальности</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
